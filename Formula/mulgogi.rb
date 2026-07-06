@@ -3,8 +3,8 @@ class Mulgogi < Formula
 
   desc "A fishing game in your terminal"
   homepage "https://github.com/justart-dev/mulgogi"
-  url "https://github.com/justart-dev/mulgogi/archive/refs/tags/v0.4.3.tar.gz"
-  sha256 "07deb60a90f04c494f981958cc3c238bf65efc1e576954935324be616f2461d2"
+  url "https://github.com/justart-dev/mulgogi/archive/refs/tags/v0.4.4.tar.gz"
+  sha256 "32bd91fdd2f804655f37284221bdcd26ad8c425c7c7a33b788150851c62a43b4"
   license "MIT"
   head "https://github.com/justart-dev/mulgogi.git", branch: "main"
 
@@ -28,11 +28,6 @@ class Mulgogi < Formula
   resource "mdurl" do
     url "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz"
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
-  end
-
-  resource "mulgogi" do
-    url "https://files.pythonhosted.org/packages/c5/9c/50620d2d3210cbdd0c0cb04f4f92eeba1cf162c0d70a805efd87ae764fb5/mulgogi-0.4.3.tar.gz"
-    sha256 "ab6a17b5f1465bcccc16f70f7f9ccb8511392b846449917cc8626e3d51b598c0"
   end
 
   resource "platformdirs" do
