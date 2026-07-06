@@ -67,6 +67,7 @@ class Mulgogi < Formula
 
   def install
     virtualenv_install_with_resources
+    bin.install_symlink libexec/"bin"/"mulgogi"
   end
 
   test do
