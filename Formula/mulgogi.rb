@@ -3,8 +3,8 @@ class Mulgogi < Formula
 
   desc "A fishing game in your terminal"
   homepage "https://github.com/justart-dev/mulgogi"
-  url "https://github.com/justart-dev/mulgogi/archive/refs/tags/v0.4.8.tar.gz"
-  sha256 "13f3d0ee59591055113bc3b7fbd2aad7b57a4d572d8f9237502bf5caf400526f"
+  url "https://github.com/justart-dev/mulgogi/archive/refs/tags/v0.4.9.tar.gz"
+  sha256 "88997f137c4a02204934aa5727beb9b9746fee7fea47fa9e77fb2d7e42f68549"
   license "MIT"
   head "https://github.com/justart-dev/mulgogi.git", branch: "main"
 
